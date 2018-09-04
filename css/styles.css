@@ -2,8 +2,12 @@ h1 {
  font-family: "Helvetica", Helvetica, sans-serif;
 }
 
+p {
+  font-family: "Helvetica", Helvetica, sans-serif;
+}
 img {
   float: right;
+  padding: 10px;
 }
 
 .important {
@@ -18,7 +22,12 @@ img {
   color: #B79191;
   text-align: justify;
   width: 500px;
+  margin: 40px;
+  border: 2px dashed black;
+  padding: 10px;
+  background-color: #F4E1E1;
 }
+
 .bright {
   font-family: "Helvetica", Helvetica, sans-serif;
   color: #5B4848;
@@ -35,3 +44,7 @@ img {
   width: 400px;
   float: left;
   font-family: "Helvetica", Helvetica, sans-serif;
+  background-color: #F9F0F0;
+  margin: 7px;
+  padding: 2px;
+}

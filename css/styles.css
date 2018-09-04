@@ -1,0 +1,18 @@
+.important {
+  color: #6495ED;
+  text-align: center;
+}
+
+.unimportant {
+  color: #C71585;
+  text-align: center;
+}
+.bright {
+  color: #FFFF00;
+  text-align: center;
+}
+
+.dull {
+  color: #696969;
+  text-align: center;
+}

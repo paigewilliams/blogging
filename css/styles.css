@@ -1,24 +1,19 @@
-h1 {
- font-family: "Helvetica", Helvetica, sans-serif;
-}
-
-p {
+body {
   font-family: "Helvetica", Helvetica, sans-serif;
 }
+
 img {
   float: right;
   padding: 10px;
 }
 
 .important {
-  font-family: "Helvetica", Helvetica, sans-serif;
   color: #E5B6B6;
   text-align: justify;
 
 }
 
 .unimportant {
-  font-family: "Helvetica", Helvetica, sans-serif;
   color: #B79191;
   text-align: justify;
   width: 500px;
@@ -29,13 +24,11 @@ img {
 }
 
 .bright {
-  font-family: "Helvetica", Helvetica, sans-serif;
   color: #5B4848;
   text-align: center;
 }
 
 .dull {
-  font-family: "Helvetica", Helvetica, sans-serif;
   color: #5B4848;
   text-align: center;
 }
@@ -43,8 +36,36 @@ img {
 .column {
   width: 400px;
   float: left;
-  font-family: "Helvetica", Helvetica, sans-serif;
   background-color: #F9F0F0;
   margin: 7px;
   padding: 2px;
+}
+
+@media screen and (min-width: 768px){
+  .column {
+    width: 400px;
+    float: left;
+    background-color: #F9F0F0;
+    margin: 7px;
+    padding: 2px;
+  }
+  .unimportant{
+    color: #B79191;
+    text-align: justify;
+    width: 500px;
+    margin: 40px;
+    border: 2px dashed black;
+    padding: 10px;
+    background-color: #F4E1E1;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 600px){
+  .img {
+    float: left;
+  }
+}
+
+@media screen and (max-width: 480px){
+
 }
